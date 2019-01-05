@@ -403,5 +403,5 @@ install: dirs $(LIB_NODEBUG)/$(LEPTLIB) $(LIB_SHARED)/$(LEPTLIB_SHARED) endianne
 	$(MKDIR) -p $(DESTDIR)$(PREFIX)/include/leptonica
 	cp -f $(LEPTLIB_H) $(DESTDIR)$(PREFIX)/include/leptonica
 	$(MKDIR) -p $(DESTDIR)$(PREFIX)/lib
-	cp -f $(LIB_NODEBUG)/$(LEPTLIB) $(LIB_SHARED)/$(LEPTLIB_SHARED) $(DESTDIR)$(PREFIX)/lib
+	cp -f $(LIB_NODEBUG)/$(LEPTLIB) $(LIB_SHARED)/$(LEPTLIB_SHARED)* $(DESTDIR)$(PREFIX)/lib
 
