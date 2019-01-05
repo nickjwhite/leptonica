@@ -227,7 +227,6 @@ LEPTLIB_C =	adaptmap.c affine.c \
 
 LEPTLIB_H =	allheaders.h alltypes.h \
 		array.h arrayaccess.h bbuffer.h \
-		bilateral.h \
 		bmf.h bmfdata.h bmp.h ccbord.h \
 		dewarp.h endianness.h environ.h gplot.h \
 		heap.h imageio.h \
