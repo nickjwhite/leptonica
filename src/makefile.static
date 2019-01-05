@@ -399,7 +399,7 @@ depend:
 
 PREFIX = /usr/local
 
-install: $(LIB_NODEBUG)/$(LEPTLIB) $(LIB_SHARED)/$(LEPTLIB_SHARED)
+install: dirs $(LIB_NODEBUG)/$(LEPTLIB) $(LIB_SHARED)/$(LEPTLIB_SHARED)
 	$(MKDIR) -p $(DESTDIR)$(PREFIX)/include/leptonica
 	cp -f $(LEPTLIB_H) $(DESTDIR)$(PREFIX)/include/leptonica
 	$(MKDIR) -p $(DESTDIR)$(PREFIX)/lib
